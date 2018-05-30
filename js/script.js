@@ -10,5 +10,7 @@ window.onload = function(){
 	console.log(result);
 	var sqrt = Math.pow(result, 3);
 	console.log(sqrt);
+	var p = sqrt.toString();
+	console.log(p[0] + p[1]);
 	
 }
