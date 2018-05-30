@@ -8,9 +8,9 @@ window.onload = function(){
 	
 	console.log(digitArray);
 	console.log(result);
-	var sqrt = Math.pow(result, 3);
-	console.log(sqrt);
-	var p = sqrt.toString();
+	var pow = result**3;
+	console.log(pow);
+	var p = pow.toString();
 	console.log(p[0] + p[1]);
 	
 }
