@@ -8,6 +8,7 @@ window.onload = function(){
 	
 	console.log(digitArray);
 	console.log(result);
-	
+	var sqrt = Math.pow(result, 3);
+	console.log(sqrt);
 	
 }
